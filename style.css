@@ -1,0 +1,162 @@
+/* Google fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.poppins-fonts {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.btn-primary {
+  padding: 20px 34px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: #E02C6D;
+  font-weight: 700;
+  margin-top: 20px;
+  transition: all 0.3s ease; 
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  background-color: #c0265f;
+  color: #fff;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.btn-primary i {
+  margin-left:10px;
+
+}
+
+
+
+
+
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+/* influencer-navbar start  */
+
+
+
+.influencer-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding:40px 150px;
+
+}
+.influencer-navbar > ul  {
+  display: flex;
+  gap: 40px;
+}
+.influencer-navbar > ul > li {
+  list-style: none;
+}
+
+.influencer-navbar > ul > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  color:#3A3A3A;
+}
+
+.influ-logo {
+  font-size: 25px;
+
+}
+
+/* banner-area  start */
+
+.banner {
+  display: flex;
+   padding:0 150px;
+   gap:130px;
+   justify-content: center;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   
+}
+.banner-content {
+  width:40%;
+  padding: 100px 0px;
+
+}
+
+.banner-title {
+  font-size: 50px;
+  color:#3A3A3A;
+}
+
+.banner-dis {
+  width:500px;
+}
+.banner-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/Circle design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 68%;
+  padding: 50px 0px;
+}
+.banner-img img {
+  
+  width:70%;
+}
+
+
+
+
+
