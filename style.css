@@ -159,5 +159,22 @@
 
 
 
+/* sponser-area */
+
+
+.sponser {
+  display: grid;
+  grid-template-columns: repeat(7 , 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 50px 150px;
+}
+
+
+
+
+
+
+
 
 
