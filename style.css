@@ -181,7 +181,14 @@
   grid-template-columns: repeat(7 , 1fr);
   justify-content: center;
   align-items: center;
-  padding: 50px 150px;
+  margin: 50px 150px;
+  border: 1px solid transparent; 
+  border-image: linear-gradient(to right,
+    #80808012,   /* left side fade */
+    rgba(128, 128, 128, 0.116),
+    rgba(181, 181, 181, 0.053) 
+  ) 1;
+  padding: 20px 30px;
 }
 
   /* Card section area  */
@@ -388,12 +395,21 @@
   }
 
 
+/* Sponser area  */
+
+
   .sponser {
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     gap: 20px;
+  
 
   }
+
+
+
+
+/* shoping Card area  */
 
   .shop-card-area {
     display: grid;
